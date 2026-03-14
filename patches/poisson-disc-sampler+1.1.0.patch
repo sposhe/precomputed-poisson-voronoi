@@ -1,0 +1,12 @@
+diff --git a/node_modules/poisson-disc-sampler/poisson-disc-sampler.js b/node_modules/poisson-disc-sampler/poisson-disc-sampler.js
+index 28364f4..2f5a48a 100644
+--- a/node_modules/poisson-disc-sampler/poisson-disc-sampler.js
++++ b/node_modules/poisson-disc-sampler/poisson-disc-sampler.js
+@@ -1,6 +1,6 @@
+ 'use strict';
+ 
+-module.exports = function poissonDiscSampler(width, height, radius, rng) {
++export default function poissonDiscSampler(width, height, radius, rng) {
+   var k = 30; // maximum number of samples before rejection
+   var radius2 = radius * radius;
+   var R = 3 * radius2;
