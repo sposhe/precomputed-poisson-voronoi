@@ -1,6 +1,6 @@
 {
   "name": "precomputed-poisson-voronoi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Exports containing sized and scaled precomputed poisson points and corresponding voronoi edges.",
   "type": "module",
   "main": "index.js",
